@@ -13,5 +13,3 @@ button.onclick = function() {
 
     closed = !closed;
 }
-
-console.log(p);
