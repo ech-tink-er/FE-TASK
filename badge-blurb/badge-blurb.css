@@ -1,0 +1,54 @@
+.badge-blurb {
+    text-align: center;
+}
+
+.badge-blurb > h3 {
+    color: #BF1522;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.badge-deck {
+    display: flex;
+    justify-content: center;
+    gap: 86px;
+}
+
+.badge-card > div {
+    width: 214px;
+    height: 214px;
+    background-color: #BF1522;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.badge-card > div > div {
+    width: 81px;
+    height: 81px;
+    background-size: 81px 81px;
+    background-repeat: no-repeat;
+    margin: auto auto;
+}
+
+.badge-deck h4 {
+    text-align: center;
+    margin-top: 33px;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    padding: 0 7%;
+}
+
+/* images */
+.badge-card:nth-child(1) .badge-sym {
+    background-image: url(phone.svg);
+}
+.badge-card:nth-child(2) .badge-sym {
+    background-image: url(world.svg);
+}
+.badge-card:nth-child(3) .badge-sym {
+    background-image: url(discount.svg);
+}

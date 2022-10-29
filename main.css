@@ -1,0 +1,34 @@
+/* red: #BF1522 */
+
+body {
+    background-color: white;
+    color: black;
+    font-family: Montserrat, sans-sarif, monospace;
+    font-size: 16px;
+}
+
+.page-block {
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+}
+main > .page-block:not(:first-child) {
+    margin-top: 50px;
+}
+
+.page-btn, .page-btn:visited, .page-btn:active {
+    display: inline-block;
+    padding: 0.7em 2.1em;
+    color: white;
+    background-color: #BF1522;
+    border: 1px solid #BF1522;
+    font-weight: bold;
+}
+.page-btn:hover {
+    background-color: transparent;
+    color: #BF1522;
+}
+
+.invis {
+    display: none;
+}

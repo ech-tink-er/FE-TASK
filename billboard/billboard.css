@@ -1,0 +1,36 @@
+.billboard {
+    width: 1926px;
+    height: 1018px;
+    background-image: url("background.png");
+    position: relative;
+}
+
+.bb-text {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+    text-align: center;
+    color: white;
+}
+
+.bb-text > h1 {
+    font-size: 61px;
+    font-weight: bold;
+}
+
+.bb-text > h2 {
+    margin-bottom: 84px;
+
+    font-size: 48px;
+    font-weight: lighter;
+}
+
+.bb-text .moto {
+    padding: 44px 0;
+    background-color: #9A121C;
+    font-size: 2.0em;
+    font-weight: lighter;
+    font-style: italic;
+}
+

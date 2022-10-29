@@ -1,0 +1,61 @@
+.card-table {
+    display: grid;
+    grid-template-rows: 300px 236px;
+    grid-template-columns: 255px 255px 255px 255px;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+.card-table > :first-child, .card-table > :last-child {
+    grid-column: span 2;
+}
+
+.card-table > div {
+    position: relative;
+}
+.card-table > div > h5 {
+    position: absolute;
+    bottom: 12px;
+    left: 20px;
+
+    color: white;
+    text-align: left;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card-table > :nth-child(2) {
+    text-align: center;
+}
+
+.card-table > :nth-child(2) > h5 {
+    position: static;
+    margin-top: 174px;
+    text-align: center;
+    color: #BF1522;
+    font-size: 18px;
+}
+
+.card-table button {
+    font-size: 12px;
+}
+
+/* images */
+.card-table > :nth-child(1) {
+    background-image: url(card-1.png);
+}
+.card-table > :nth-child(2) {
+    background-image: url(card-2.png);
+}
+.card-table > :nth-child(3) {
+    background-image: url(card-3.png);
+}
+.card-table > :nth-child(4) {
+    background-image: url(card-4.png);
+}
+.card-table > :nth-child(5) {
+    background-image: url(card-5.png);
+}
+.card-table > :nth-child(6) {
+    background-image: url(card-6.png);
+}

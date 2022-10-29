@@ -1,0 +1,19 @@
+.exp-article {
+    text-align: center;
+}
+
+.exp-article > div {
+    height: 3em;
+}
+
+.exp-article button {
+    background-color: transparent;
+    border: none;
+    color: #BF1522;
+    font-weight: bold;
+    border-bottom: .25em solid transparent;
+}
+.exp-article button:hover {
+    border-bottom: .25em solid #BF1522;
+    padding-bottom: 0.3em;
+}

@@ -1,0 +1,63 @@
+.opinions {
+    text-align: center;
+    width: 1000px;
+    color: black;
+}
+
+.opinions .logo {
+    width: 39px;
+    height: 25px;
+    background-image: url(logo-sm.png);
+    background-repeat: no-repeat;
+    background-size: 39px 25px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.opinions h4 {
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+.opinions p {
+    margin-bottom: 35px;
+}
+
+.opinions .profile img {
+    margin-bottom: 24px;
+}
+
+.opinions .profile div:nth-child(2) {
+    font-weight: bold;
+}
+
+.opinions .profile div:nth-child(3) {
+    font-size: 0.8em;
+    color: #636363;
+}
+
+/* CAROUSEL */
+/* -------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+}
+
+.carousel-control-next-icon {
+    background-image: url(right.svg);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(left.svg);
+}
